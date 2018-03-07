@@ -1,3 +1,30 @@
 <resources>
     <string name="app_name">Integradora_final</string>
+    <string-array name="frutas">
+        <item>Manzana</item>
+        <item>Naranja</item>
+        <item>Sandía</item>
+        <item>Pera</item>
+    </string-array>
+
+    <string-array name="carne">
+        <item>Res</item>
+        <item>Leche</item>
+        <item>Huevos</item>
+        <item>Pollo</item>
+    </string-array>
+
+    <string-array name="cereales">
+        <item>Arroz</item>
+        <item>Avena</item>
+        <item>Maíz</item>
+        <item>Trigo</item>
+    </string-array>
+
+    <string-array name="legumbres">
+        <item>Frijol</item>
+        <item>Chicharo</item>
+        <item>Haba</item>
+        <item>Lenteja</item>
+    </string-array>
 </resources>

@@ -6,13 +6,61 @@
     android:layout_height="match_parent"
     tools:context="com.example.axelcuevas.integradora_final.MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
 
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Índice de Masa Corporal"
+            android:textAppearance="@style/TextAppearance.Widget.AppCompat.Toolbar.Title" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="vertical">
+
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/height"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Altura (m)"
+            android:inputType="numberDecimal" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="vertical">
+
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/weight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Peso (kg)"
+            android:inputType="numberDecimal" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="vertical"></LinearLayout>
+
+        <Button
+            android:id="@+id/btn"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Calcular" />
+
+    </LinearLayout>
 </android.support.constraint.ConstraintLayout>
