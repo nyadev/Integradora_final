@@ -1,24 +1,24 @@
 <resources>
     <string name="app_name">Integradora_final</string>
     <string-array name="frutas">
-        <item>Manzana</item>
-        <item>Naranja</item>
-        <item>Sandía</item>
-        <item>Pera</item>
+        <item>Apio</item>
+        <item>Lechuga</item>
+        <item>Zanahoria</item>
+        <item>Tomate</item>
     </string-array>
 
     <string-array name="carne">
-        <item>Res</item>
-        <item>Leche</item>
-        <item>Huevos</item>
-        <item>Pollo</item>
+        <item>Res Asada</item>
+        <item>Res Molida</item>
+        <item>Pechuga de Pollo</item>
+        <item>Pierna de Pollo</item>
     </string-array>
 
     <string-array name="cereales">
         <item>Arroz</item>
-        <item>Avena</item>
-        <item>Maíz</item>
-        <item>Trigo</item>
+        <item>Hojuelas</item>
+        <item>Pan de molde</item>
+        <item>Pan frances</item>
     </string-array>
 
     <string-array name="legumbres">

@@ -116,16 +116,16 @@ public class formulario extends AppCompatActivity implements View.OnClickListene
         else{
             String chain = "";
             if(casa.isChecked()){
-                chain += casa.getText().toString();
+                chain += casa.getText().toString() + " ";
             }
             if(escuela.isChecked()){
-                chain += escuela.getText().toString();
+                chain += escuela.getText().toString() + " ";
             }
             if(deporte.isChecked()){
-                chain += deporte.getText().toString();
+                chain += deporte.getText().toString() + " ";
             }
             if(oficina.isChecked()){
-                chain += oficina.getText().toString();
+                chain += oficina.getText().toString() + " ";
             }
             finalform.putExtra("person", "Mixta: " + chain);
         }
